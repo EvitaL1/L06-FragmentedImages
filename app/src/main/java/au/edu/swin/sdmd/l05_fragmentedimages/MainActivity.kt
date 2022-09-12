@@ -25,9 +25,5 @@ class MainActivity : AppCompatActivity() {
             val myFragment = DetailFragment.newInstance(station.name, station.author)
             fm.beginTransaction().replace(R.id.fragment, myFragment).commit()
         }
-
-
     }
-
-
 }
